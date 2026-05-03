@@ -14,7 +14,11 @@ const PORT = process.env.PORT || 5000;
 
 // allow requests from the frontend dev server and production
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'https://campus-lost-found-portal-frontend.onrender.com'
+  ],
   credentials: true
 }));
 
