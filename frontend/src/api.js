@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // base API client - all requests go through here
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://campus-lost-found-portal-bqit.onrender.com/api',
   headers: { 'Content-Type': 'application/json' }
 });
 
