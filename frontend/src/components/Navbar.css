@@ -75,7 +75,7 @@
 .user-dropdown {
   position: absolute;
   right: 0;
-  top: calc(100% + 10px);
+  top: 100%; 
   background: var(--surface2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -84,7 +84,19 @@
   overflow: hidden;
   display: none;
   flex-direction: column;
+  padding-top: 8px; 
 }
+
+/* invisible bridge so mouse movement doesn't break hover */
+.user-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+}
+
 .user-menu:hover .user-dropdown { display: flex; }
 
 .user-info {
