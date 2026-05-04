@@ -99,7 +99,7 @@ const Register = () => {
               <input
                 type="tel"
                 name="contact"
-                placeholder="+1 234 567 8900"
+                placeholder="Your mobile number"
                 value={form.contact}
                 onChange={handleChange}
               />
