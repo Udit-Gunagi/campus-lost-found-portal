@@ -132,7 +132,7 @@ Make sure you have these installed on your machine:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lost-found-portal.git
+git clone https://github.com/Udit-Gunagi/campus-lost-found-portal.git
 cd lost-found-portal
 ```
 
