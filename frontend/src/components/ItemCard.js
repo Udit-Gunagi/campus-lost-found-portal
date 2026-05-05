@@ -15,7 +15,7 @@ const timeAgo = (dateStr) => {
 
 const ItemCard = ({ item, onDelete, showActions }) => {
   const imgSrc = item.image_url
-    ? `http://localhost:5000${item.image_url}`
+    ? `https://campus-lost-found-portal-bqit.onrender.com${item.image_url}`
     : null;
 
   return (
