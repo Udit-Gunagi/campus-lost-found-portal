@@ -80,7 +80,9 @@ const ItemDetail = () => {
 
   const isOwner = user && item.user_id === user.id;
   const isLoggedIn = !!user;
-  const imgSrc = item.image_url ? `http://localhost:5000${item.image_url}` : null;
+  const imgSrc = item.image_url
+  ? `https://campus-lost-found-portal-bqit.onrender.com${item.image_url}`
+  : null;
 
   return (
     <div className="detail-page">
