@@ -257,13 +257,13 @@ Once you are an admin, you can promote other users through the Admin Panel insid
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Team
 
-Built as part of a Glowlogics Solutions Pvt Ltd Internship Project.
+Built as a group project during a **Glowlogics Solutions Pvt Ltd Internship**.
 
-- GitHub: [@Udit-Gunagi](https://github.com/Udit-Gunagi)
-- Email: gunagiudit831@gmail.com
-
+- Pranay S Chinchankar
+- Udit U Gunagi
+- Sahil S Vernekar
 
 ---
 
