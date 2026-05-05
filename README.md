@@ -10,6 +10,8 @@
 
 > ⚠️ **Note:** The backend is hosted on Render's free tier. It may take **10–20 seconds** to wake up on the first load.
 
+> 🧪 **To test the project**, login using — **Email:** `group-project@gmail.com` &nbsp;|&nbsp; **Password:** `group-project`
+
 ---
 
 ## 📌 Table of Contents
